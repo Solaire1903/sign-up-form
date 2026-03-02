@@ -5,3 +5,27 @@
 
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page {
+  width: 70%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
