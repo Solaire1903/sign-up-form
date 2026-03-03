@@ -1,8 +1,6 @@
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -12,6 +10,7 @@ body {
 }
 
 .sidebar {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -24,4 +23,15 @@ body {
 .sidebar>img {
   height: 100vh;
   min-height: 600px;
+}
+
+.logo-banner {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 17%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  opacity: 70%;
 }
