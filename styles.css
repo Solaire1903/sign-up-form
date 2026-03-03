@@ -1,8 +1,6 @@
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -11,21 +9,12 @@ body {
   flex-direction: row;
 }
 
-.sidebar {
-  width: 30%;
-  height: 100vh;
-  background-color: blueviolet;
+.main-page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.main-page {
-  width: 70%;
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.sidebar>img {
+  height: 100vh;
+  min-height: 600px;
 }
