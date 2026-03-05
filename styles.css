@@ -15,25 +15,6 @@ body {
   flex-direction: column;
 }
 
-.sidebar>p {
-  position: absolute;
-  bottom: 3%;
-  left: 25%;
-  color: white;
-}
-
-.sidebar>p>a:link {
-  color: white;
-}
-
-.sidebar>p>a:visited {
-  color: white;
-}
-
-.main-page {
-  display: flex;
-  flex-direction: column;
-}
 
 .sidebar>img {
   height: 100vh;
@@ -65,4 +46,39 @@ body {
   font-weight: 400;
   font-style: normal;
   color: white;
+}
+
+.sidebar>p {
+  position: absolute;
+  bottom: 3%;
+  left: 25%;
+  color: white;
+}
+
+.sidebar>p>a:link {
+  color: white;
+}
+
+.sidebar>p>a:visited {
+  color: white;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-page>div {
+  display: flex;
+  flex: 1;
+}
+
+.main-page>div:nth-child(odd) {
+  align-items: center;
+  background-color: #e4e4e4;
+}
+
+.main-page>div:nth-child(even) {
+  
 }
