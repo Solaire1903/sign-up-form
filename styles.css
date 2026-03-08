@@ -99,10 +99,23 @@ body {
   flex-direction: column;
 }
 
+.main-page>div:nth-child(2)>p {
+  margin-bottom: 2%;
+}
+
 fieldset {
   margin-left: 4%;
-  width: 40%;
+  width: 35%;
+  border: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 100px;
+  
+}
+
+fieldset>div {
+  display: flex;
+  flex-direction: column;
 }
