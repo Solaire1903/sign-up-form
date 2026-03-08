@@ -103,7 +103,7 @@ body {
   margin-bottom: 2%;
 }
 
-fieldset {
+form {
   margin-left: 4%;
   width: 35%;
   border: none;
@@ -115,7 +115,7 @@ fieldset {
   
 }
 
-fieldset>div {
+form>div {
   display: flex;
   flex-direction: column;
 }
