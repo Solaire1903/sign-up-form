@@ -120,6 +120,12 @@ form>div {
   flex-direction: column;
 }
 
+label {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: gray;
+}
+
 input {
   height: 25px;
   width: 200px;
