@@ -1,3 +1,7 @@
+:root {
+  --page-color: rgb(102, 14, 102);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -136,7 +140,7 @@ button {
   width: 200px;
   border-radius: 8px;
   font-size: 1.1em;
-  background-color: rgb(102, 14, 102);
+  background-color: var(--page-color);
   color: white;
 }
 
@@ -147,5 +151,5 @@ button {
 .main-page a {
   text-decoration: none;
   font-weight: bold;
-  color: rgb(102, 14, 102);
+  color: var(--page-color);
 }
