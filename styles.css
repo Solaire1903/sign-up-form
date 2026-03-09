@@ -105,7 +105,7 @@ body {
 
 form {
   margin-left: 4%;
-  width: 35%;
+  width: 40%;
   border: none;
   display: flex;
   flex-direction: row;
@@ -118,4 +118,9 @@ form {
 form>div {
   display: flex;
   flex-direction: column;
+}
+
+input {
+  height: 25px;
+  width: 200px;
 }
