@@ -153,3 +153,7 @@ button {
   font-weight: bold;
   color: var(--page-color);
 }
+
+.main-page a:hover {
+  text-decoration: underline;
+}
