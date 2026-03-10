@@ -90,7 +90,8 @@ body {
   justify-content: end;
 }
 
-.main-page>div:nth-child(1)>p, .main-page>div:nth-child(2)>p {
+.main-page>div:nth-child(1)>p,
+.main-page>div:nth-child(2)>p {
   padding-bottom: 4%;
   width: 70%;
   height: auto;
@@ -116,7 +117,7 @@ form {
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 100px;
-  
+
 }
 
 form>div {
@@ -162,4 +163,16 @@ button:hover {
 
 .main-page a:hover {
   text-decoration: underline;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
